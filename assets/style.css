@@ -121,7 +121,7 @@ sub-menu-parent:focus .sub-menu,
 /* hero section */
 
 .hero {
-  background-image: url("./hero109-unsplash.jpg");
+  background-image: url("../assets/hero109-unsplash.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 50px 50px 50px 50px;
@@ -224,6 +224,7 @@ footer {
   color: #392719;
   background-color:  #e8f8f5;
   box-shadow: 0 20px 20px #70400f;
+  border-radius: 50px 50px 50px 50px;
   
 }
 

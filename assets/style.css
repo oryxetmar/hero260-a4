@@ -1,0 +1,244 @@
+body {
+ 
+  background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/coffee-stained-paper-texture-3.jpg");
+ font-family: 'Dongle', sans-serif;
+ }
+
+/* nav bar design */
+
+.top-bar a {
+  /* remove link color and underline */
+  color: #81573d;
+  text-decoration: none;
+  display: block;
+  
+}
+
+i {
+  padding: 20px;
+}
+
+ul {
+  /* remove list styles */
+  display: flex;
+  flex-direction: row;
+ list-style-type: none;
+  padding: 0;
+}
+
+.dropdown {
+  display: flex;
+  display: block;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #eee5d7;
+}
+
+/* nav links */
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  row-gap: 10px;
+  font-size: 2.5rem;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  background-color: #e8f8f5;
+  padding: 0 1rem;
+  background-color: #e8f8f5; opacity: .75; filter: alpha(opacity=20);
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-grow: 2;
+  justify-content: flex-end;
+  color: white;
+  flex-direction: row;
+}
+
+.logo-wrapper a {
+  display: flex;
+  align-items: center;
+  transition: 300ms color;
+  color:  #81573d ;
+}
+.logo-wrapper a:hover {
+ color:  #81573d; opacity: 0.75;      filter: alpha(opacity=50);
+ transform: scale(1.2);
+ flex-grow: 2;
+}
+.logo-wrapper p {
+ font-size: clamp(2.5rem, 6vw, 2rem)
+}
+.logo-wrapper i {
+  font-size: clamp(2.5rem, 6vw, 2rem);
+}
+
+.sub-menu-parent { position: relative; }
+
+.sub-menu { 
+  visibility: hidden; 
+  opacity: 2;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 80%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0 20px 20px #70400f;
+}
+sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; 
+  opacity: 10;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+  color: #70400f ;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0 20px 20px #70400f;
+}
+
+.top-bar {
+  text-align: center;
+  height: 12vh;
+  padding: 40;
+  font-size: clamp(2rem, 2vw, 1rem);
+  color:  #70400f ;
+  box-shadow: 0 20px 20px #70400f;
+  border-radius: 50px 50px 50px 50px;
+}
+
+/* hero section */
+
+.hero {
+  background-image: url("/hero-section/assets/images/hero109-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 50px 50px 50px;
+  width: 100wh;
+  height: 80vh;
+  display: flex;
+}
+
+
+.center-content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  font-family: 'Dongle', sans-serif;
+}
+  a.button {
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.25rem;
+  }
+
+ h1, h3 {
+    color: white;
+    line-height: .75;
+    font-family: 'Dongle', sans-serif;
+ }
+  
+ h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+ }
+    
+  h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+
+  }
+
+.button {
+  text-transform: uppercase;
+  color: #502c17;
+  padding: 20px;
+  border: 3px solid #502c17;
+  text-decoration: none;
+  box-shadow: 0 20px 20px whitesmoke;
+  border-radius: 50px 50px 50px 50px;
+  background-color: whitesmoke; 
+ 
+}
+  
+  .button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.7);
+    color: white;
+  }
+
+  /* content */
+  .title {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    color: #492e0d;
+    font-family: 'Dongle', sans-serif;
+  }
+
+  .main-content {
+  
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    color: #492e0d;
+    align-content: center;
+    columns: 2;
+    column-gap: 20px;
+    padding: 2px;
+    font-family: 'Dongle', sans-serif;
+     margin: 2rem 150px 5rem 150px;
+  }
+ 
+ /* footer */
+
+footer {
+  display: flex;
+ align-items: center;
+   height: 5rem;
+  margin-top: 10px;
+  gap: 1rem;
+  font-size: 2rem;
+  justify-content: space-between;
+  color: #392719;
+  background-color:  #e8f8f5;
+  box-shadow: 0 20px 20px #70400f;
+  
+}
+
+footer p {
+  display: flex;
+  justify-content: flex-start;
+padding: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+ color: #70400f ;
+}
+
+a {
+  color: #70400f ;
+}

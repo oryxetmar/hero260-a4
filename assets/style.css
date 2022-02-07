@@ -121,7 +121,7 @@ sub-menu-parent:focus .sub-menu,
 /* hero section */
 
 .hero {
-  background-image: url("/hero-section/assets/images/hero109-unsplash.jpg");
+  background-image: url("assets/images/hero109-unsplash.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 50px 50px 50px 50px;

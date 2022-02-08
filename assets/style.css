@@ -1,6 +1,5 @@
 body {
- 
-  background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/coffee-stained-paper-texture-3.jpg");
+ background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/coffee-stained-paper-texture-3.jpg");
  font-family: 'Dongle', sans-serif;
  }
 
@@ -10,8 +9,7 @@ body {
   /* remove link color and underline */
   color: #81573d;
   text-decoration: none;
-  display: block;
-  
+  display: block;  
 }
 
 i {
@@ -95,6 +93,7 @@ ul {
   border-radius: 50px 50px 50px 50px;
   box-shadow: 0 20px 20px #70400f;
 }
+
 sub-menu-parent:focus .sub-menu,
 .sub-menu-parent:focus-within .sub-menu,
 .sub-menu-parent:hover .sub-menu {
@@ -133,7 +132,6 @@ sub-menu-parent:focus .sub-menu,
   margin-right: 50px;
 }
 
-
 .center-content {
   width: 400px;
   display: flex;
@@ -169,7 +167,6 @@ sub-menu-parent:focus .sub-menu,
     font-size: 2.5rem;
     font-weight: normal;
     text-align: center;
-
   }
 
 .button {
@@ -181,7 +178,6 @@ sub-menu-parent:focus .sub-menu,
   box-shadow: 0 20px 20px whitesmoke;
   border-radius: 50px 50px 50px 50px;
   background-color: whitesmoke; 
- 
 }
   
   .button:hover {
@@ -191,6 +187,7 @@ sub-menu-parent:focus .sub-menu,
   }
 
   /* content */
+  
   .title {
     display: flex;
     font-size: 3rem;
@@ -201,7 +198,6 @@ sub-menu-parent:focus .sub-menu,
   }
 
   .main-content {
-  
     display: flex;
     font-size: 2rem;
     text-align: center;
@@ -218,44 +214,35 @@ sub-menu-parent:focus .sub-menu,
 
  form {
   display: flex;
- align-items: center;
-   height: 5rem;
+  align-items: center;
+  height: 5rem;
   margin-top: 10px;
   margin-left: 100px;
   margin-right: 100px;
   gap: 1rem;
   font-size: 2rem;
-  justify-content: space-between;
+  justify-content: center;
   color: #392719;
   background-color:  #e8f8f5;
   box-shadow: 0 20px 20px #70400f;
   border-radius: 50px 50px 50px 50px;
-
   }
  
   label {
     display: flex;
     font-size: 1.75rem;
-    justify-content: space-evenly;
     padding: 5px;
-
   }
 
  label p {
     display: flex;
-    justify-content:space-evenly;
     flex-direction: row;
     margin-left: 75px;
-
-   
-  
-
   }
 
 button {
   text-transform: uppercase;
   color: #502c17;
-
   border: 3px solid #502c17;
   text-decoration: none;
   box-shadow: 0 20px 20px whitesmoke;
@@ -270,15 +257,14 @@ input {
   border-radius: 50px 50px 50px 50px;
   border: 3px solid #502c17;
   margin-left: 12px;
-
 }
 
  /* footer */
 
 footer {
   display: flex;
- align-items: center;
-   height: 5rem;
+  align-items: center;
+  height: 5rem;
   margin-top: 10px;
   gap: 1rem;
   font-size: 2rem;
@@ -286,20 +272,19 @@ footer {
   color: #392719;
   background-color:  #e8f8f5;
   box-shadow: 0 20px 20px #70400f;
-  border-radius: 50px 50px 50px 50px;
-  
+  border-radius: 50px 50px 50px 50px;  
 }
 
 footer p {
   display: flex;
   justify-content: flex-start;
-padding: 20px;
+  padding: 20px;
 }
 
 ul {
   display: flex;
   justify-content: flex-end;
- color: #70400f ;
+  color: #70400f ;
 }
 
 a {

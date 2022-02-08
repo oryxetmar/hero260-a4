@@ -128,6 +128,9 @@ sub-menu-parent:focus .sub-menu,
   width: 100wh;
   height: 80vh;
   display: flex;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 
@@ -208,7 +211,7 @@ sub-menu-parent:focus .sub-menu,
     column-gap: 20px;
     padding: 2px;
     font-family: 'Dongle', sans-serif;
-     margin: 2rem 150px 5rem 150px;
+     margin: 2rem 75px 5rem 75px;
   }
 
   /* formspree */
@@ -218,6 +221,8 @@ sub-menu-parent:focus .sub-menu,
  align-items: center;
    height: 5rem;
   margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
   gap: 1rem;
   font-size: 2rem;
   justify-content: space-between;
